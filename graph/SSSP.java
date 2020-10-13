@@ -19,7 +19,7 @@ public class SSSP {
     
     public void addEdge(int source, int destination) {
         
-        if( !graph.containsKey(source)) {
+        if( !graph.containsKey(source) ) {
             addVertex(source);
         }
         

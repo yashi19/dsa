@@ -51,7 +51,7 @@ public class ConnectedComponents {
         Map<Integer,Boolean> visited = new HashMap<>();
         int noOfConnectedComponents = 0;
         for( int node : graph.keySet()) {
-            if( ! visited.getOrDefault(node,false)){
+            if( ! visited.getOrDefault(node,false) ){
                 System.out.print("Connected components " + noOfConnectedComponents + " : ");
                 dfsHelper(node,visited);
                 noOfConnectedComponents++;

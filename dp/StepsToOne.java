@@ -8,8 +8,20 @@ import java.util.Arrays;
  */
 
 public class StepsToOne {
-    
-    
+
+    int a;
+    int b;
+
+    @Override
+    public int hashCode() {
+        return super.hashCode();
+    }
+
+    @Override
+    public boolean equals(Object obj) {
+        return super.equals(obj);
+    }
+
     public static int minSteps(int n) {
         if( n == 1 ){
             return 0;
